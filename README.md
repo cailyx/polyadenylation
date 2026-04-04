@@ -11,6 +11,9 @@ crucially, the association rate of PABP will determine when we can treat the pol
 
 This moreoever enables us to explore the effects of salt concentration, known to modulate the persistence length of charged polymers.
 
+<img width="720" height="504" alt="cartoon" src="https://github.com/user-attachments/assets/8d35ea81-481f-441b-94f9-2197fddf712b" />
+
+
 ## considerations
 It should be noted that it remains unclear whether such a physiologically relevant globule forms and if so what its structure is. There are also other interesting possibilities for explaining tail length control. For example, evidence that the nuclear poly(A)-binding protein (PABPN1) exhibits phase separation adds the possibility of tail length control at the level of multiple polyA-PABPs in coordination. There are also not only additional poly(A)-binding proteins (incl. the cytoplasmic PABPCs) which may work in concert to control length, but also other mRNA processing and degradation factors (PABPN1 is involved in *hyper*adenylation-mediated decay). It might be studied whether these additional players influence tail length control inasmuch as they influence the polymer loop behavior described, although in general, the single-base, fairly cheap to build, and structurally dynamic poly(A) tail makes it a potential platform for additional, yet to be explored regulatory mechanisms.
 
