@@ -6,20 +6,25 @@ In the cell, a freshly made strand of RNA is commonly extended further by a poly
 Here, then, we try to understand this stopping point by treating the growth of a poly(A) tail as essentially a polymer loop growing in size, whose configurational entropy and excluded volume effects are weighed at each additional A added against the enthalpic gains of 1) PABPs self-associating, 2) PABP-polyA binding, and 3) PAP-mPSF binding. 
 
 crucially, the association rate of PABP will determine when we can treat the polyA as naked versus coated, each having different persistence lengths. We'll have
-* An, a loop of n number of A's that grows from one end at rate k;
-* B, a poly(A)-binding protein that binds f number of A's (the footprint) with a specified Kd, k_on, and k_off
+* An, a loop of n number of A's that grows from one end;
+* B, a poly(A)-binding protein. For now, just imagine that as n grows, 
 
-This moreoever enables us to explore the effects of salt concentration, known to modulate the persistence length of charged polymers.
+We moreover explore the effects of salt concentration, known to modulate the persistence length of charged polymers.
+
+A few stages may be roughly sketched..
+* (left) - initially, the polymer is simply too short to be forced into a circle. i.e., the energy of it circularizing is infinitely high.
+* (middle) - there exists a point when the costs and gains of forming a loop are perfectly balanced.
+* (right) - the loop snaps open, as the cost of forming a loop again exceeds the gains.
 
 <img width="720" height="504" alt="cartoon" src="https://github.com/user-attachments/assets/8d35ea81-481f-441b-94f9-2197fddf712b" />
 
-3 stages of polyadenylation. we need to consider that for the first few nt, it's infinitely high energy to circularize. PAP has no choice but to be extended. this would exlpain A0 vs A50 gels!!!
 
 
 ## considerations
-It should be noted that it remains unclear whether such a physiologically relevant globule forms and if so what its structure is. There are also other interesting possibilities for explaining tail length control. For example, evidence that the nuclear poly(A)-binding protein (PABPN1) exhibits phase separation adds the possibility of tail length control at the level of multiple polyA-PABPs in coordination. There are also not only additional poly(A)-binding proteins (incl. the cytoplasmic PABPCs) which may work in concert to control length, but also other mRNA processing and degradation factors (PABPN1 is involved in *hyper*adenylation-mediated decay). It might be studied whether these additional players influence tail length control inasmuch as they influence the polymer loop behavior described, although in general, the single-base, fairly cheap to build, and structurally dynamic poly(A) tail makes it a potential platform for additional, yet to be explored regulatory mechanisms.
+It should be noted that it is unclear whether such a physiologically relevant globule forms and if so what its structure is. There are also other interesting possibilities for explaining tail length control. For example, evidence that the nuclear poly(A)-binding protein (PABPN1) exhibits phase separation adds the possibility of tail length control at the level of multiple polyA-PABPs in coordination. There are also not only additional poly(A)-binding proteins (incl. the cytoplasmic PABPCs) which may work in concert to control length, but also other mRNA processing and degradation factors (PABPN1 is involved in *hyper*adenylation-mediated decay). It might be studied whether these additional players influence tail length control inasmuch as they influence the polymer loop behavior described.
 
 #### future things to layer in, roughly in order of importance..
+* **the rate of tail length growth and the k_on/k_off of pabp**
 * A small but confusing detail that makes this story incomplete- does the PABP globule max out intrinsically or just exceed the energy of the PAP's interaction with the upstream protein complex, `breaking' it open? --> see if these things correspond.
 * how does a growing poly(A) actually structure itself (surely not a perfect circle)? how does PABP-binding alter this?
 * cooperativity of PABP binding.
