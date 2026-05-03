@@ -9,4 +9,4 @@ $E_{strain} = E_{bend}(l_p, n) - S_{loop}(n)$
 $E_{bind} = (n/f)(\Delta H_{PABP-polyA} + \Delta H_{PABP-PABP}) + \Delta H_{PAP-mPSF}$
 
 We sum these to get an energy associated with forming a polyA loop:
-$E_{loop} = E_{bind} - E_{strain}$
+$E_{loop} = E_{bind} + E_{strain}$
