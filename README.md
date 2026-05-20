@@ -6,12 +6,13 @@ In the cell, a freshly made strand of RNA is commonly extended further by a poly
 Here, then, we try to understand this stopping point by treating the growth of a poly(A) tail as a polymer loop growing in size. At each tail length, maximization of configurational entropy and minimization of excluded volume effects are in competition with favorability of the globule formation (a sum of PABPs self-associating, PABP-polyA binding, and PAP-mPSF binding). This creates distinct stages over the course of polyadenylation and invites control by parameters like salt concentration, which influence polymer persistence lengths.
 
 we sketch a few stages:
-* (left) - initially, the polymer is simply too short to be forced into a circle. i.e., the energy of it circularizing is infinitely high.
-* (middle) - there exists a point when the costs and gains of forming a loop are perfectly balanced.
-* (right) - the loop snaps open, as the cost of forming a loop again exceeds the gains.
+* (left) - initially, the polymer is simply too short to be forced into a circle. i.e., the energy of it circularizing is too high.
+* (middle) - there exists a point when favorable enthalpy gains outweigh costs
+* (right) - our entropy cost eventually grows with the A-tail and the interaction energy's not enough to keep it growing in a loop forever. it effectively pops open
 
-<img width="720" height="504" alt="cartoon" src="https://github.com/user-attachments/assets/8d35ea81-481f-441b-94f9-2197fddf712b" />
+<img width="720" height="153" alt="pa (5)" src="https://github.com/user-attachments/assets/bd9ceaf8-c16d-4cbb-9016-f657238a815e" />
 
+<img width="720" height="504" alt="scale" src="https://github.com/user-attachments/assets/d70df650-7615-41d0-b8e1-94c883a27d55" />
 
 
 ## considerations
