@@ -15,6 +15,17 @@ we sketch a few stages:
 <img width="720" height="504" alt="scale" src="https://github.com/user-attachments/assets/d70df650-7615-41d0-b8e1-94c883a27d55" />
 
 
+## repository layout
+
+| path | what |
+|---|---|
+| [`notebooks/draft_polya.ipynb`](notebooks/draft_polya.ipynb) | the working notebook: globule volume, v1/v2 bending vs. circularization, loop vs. linear, stubs for salt and PABP kinetics. A contents table at the top gives each section's state. |
+| [`notebooks/main_for_urop.ipynb`](notebooks/main_for_urop.ipynb) | the simplified, PABP-free version: one total energy swept over tail length and salt |
+| [`notes/model.md`](notes/model.md) | the energy model written out ($E_{bind}$, $E_{bend}$, $S_{loop}$) |
+| [`notes/OPEN_ISSUES.md`](notes/OPEN_ISSUES.md) | known bugs and parameter questions, **not yet fixed** |
+
+Both notebooks open in Colab from the badge at their top.
+
 ## considerations
 It should be noted that it is unclear whether such a physiologically relevant globule forms and if so what its structure is. There are also other interesting possibilities for explaining tail length control. For example, evidence that the nuclear poly(A)-binding protein (PABPN1) exhibits phase separation adds the possibility of tail length control at the level of multiple polyA-PABPs in coordination. There are also not only additional poly(A)-binding proteins (incl. the cytoplasmic PABPCs) which may work in concert to control length, but also other mRNA processing and degradation factors (PABPN1 is involved in *hyper*adenylation-mediated decay). It might be studied whether these additional players influence tail length control inasmuch as they influence the polymer loop behavior described.
 
